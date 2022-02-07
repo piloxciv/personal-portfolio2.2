@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.0.17 | MIT License | https://tailwindcss.com
+! tailwindcss v3.0.18 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -784,15 +784,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-bg-opacity: 1;
   background-color: rgb(240 74 123 / var(--tw-bg-opacity));
 }
+
 .bg-theme:hover {
   --tw-bg-opacity: 1;
   color: white;
-  background-color: rgb(240 74 123 / var(--tw-bg-opacity));
-  box-shadow:2px 2px 50px 2px pink inset;
-}
-
-path:hover {
-  fill: rgb(240 74 123 / var(--tw-bg-opacity));
+  box-shadow:20px 20px 50px 10px pink inset; 
 }
 
 .bg-nav {
@@ -808,6 +804,10 @@ path:hover {
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+path:hover {
+  fill:rgb(240 74 123 / var(--tw-bg-opacity));
 }
 
 .p-6 {
@@ -903,12 +903,11 @@ path:hover {
   color: rgb(240 74 123 / var(--tw-text-opacity));
 }
 
+.text-whitesmoke {
+  color: whitesmoke;
+}
 .text-white {
   color: white;
-}
-
-.text-whitesmoke {
-  color: whitesmoke
 }
 
 .text-selected-text {
