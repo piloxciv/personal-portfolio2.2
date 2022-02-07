@@ -66,3 +66,18 @@ scroll-margin-top: 100px;
     opacity: 1;
 }
 
+path:hover {
+    fill: rgb(240 74 123 / var(--tw-bg-opacity));
+  }
+
+  .bg-theme:hover {
+    box-shadow:2px 2px 50px 2px pink inset;
+  }
+
+  .text-whitesmoke {
+    color: whitesmoke;
+  }
+  
+  .text-white {
+    color: white;
+  }

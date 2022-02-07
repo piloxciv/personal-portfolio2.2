@@ -4,14 +4,20 @@
   "description": "",
   "main": "tailwind.config.js",
   "scripts": {
-    "build": "npx tailwindcss"
-  },
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
+    },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.0.19"
   },
   "dependencies": {
-    "heroku": "^7.59.2"
+    "heroku": "^7.59.2",
+    "serve": "^13.0.2"
   }
 }
