@@ -1,5 +1,4 @@
 const http = require('http')
-const port = 8080
 
 function updateList() {
 	const titles = [...document.querySelectorAll('h1, h2')].sort((a, b) => {
@@ -75,8 +74,6 @@ async function handleSubmit(event) {
 	// Create a server object:
 const server = http.createServer(function (req, res) {
   
-    // Write a response to the client
-    res.write('Hello World')
   
     // End the response 
     res.end()
