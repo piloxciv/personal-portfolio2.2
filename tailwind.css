@@ -784,6 +784,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-bg-opacity: 1;
   background-color: rgb(240 74 123 / var(--tw-bg-opacity));
 }
+.bg-theme:hover {
+  box-shadow:2px 2px 50px 2px pink inset;
+}
 
 .bg-nav {
   --tw-bg-opacity: 1;
@@ -892,6 +895,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-text-opacity: 1;
   color: rgb(240 74 123 / var(--tw-text-opacity));
 }
+
+.text-whitesmoke {
+  color: whitesmoke;
+}
+
+.text-white {
+  color: white;
+}
+
+path:hover {
+  fill: rgb(240 74 123 / var(--tw-bg-opacity));
+}
+
 
 .text-selected-text {
   --tw-text-opacity: 1;
