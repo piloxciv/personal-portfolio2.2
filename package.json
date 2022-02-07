@@ -1,16 +1,10 @@
 {
   "name": "personal-portfolio2.1",
   "version": "1.0.0",
-  "description": "",
   "main": "tailwind.config.js",
   "scripts": {
-    "dev": "react-scripts start",
-    "start": "serve -s build",
-    "build": "npx tailwindcss -i index.css -o final.css --minify",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build"
-    },
+    "build": "npx tailwindcss -i index.css -o final.css --minify"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -19,5 +13,15 @@
   "dependencies": {
     "heroku": "^7.59.2",
     "serve": "^13.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piloxciv/personal-portfolio2.2.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/piloxciv/personal-portfolio2.2/issues"
+  },
+  "homepage": "https://github.com/piloxciv/personal-portfolio2.2#readme",
+  "description": ""
 }
