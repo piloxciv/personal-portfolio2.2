@@ -1,1 +1,0 @@
-web: node tailwind.config.js
