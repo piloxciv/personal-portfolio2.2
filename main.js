@@ -1,3 +1,6 @@
+const http = require('http')
+const port = 8080
+
 function updateList() {
 	const titles = [...document.querySelectorAll('h1, h2')].sort((a, b) => {
 		return Math.abs(a.getBoundingClientRect().top) - Math.abs(b.getBoundingClientRect().top);
@@ -68,3 +71,26 @@ async function handleSubmit(event) {
 			return false;
 		}
 	}
+
+	// Create a server object:
+const server = http.createServer(function (req, res) {
+  
+    // Write a response to the client
+    res.write('Hello World')
+  
+    // End the response 
+    res.end()
+})
+  
+// Set up our server so it will listen on the port
+server.listen(port, function (error) {
+  
+    // Checking any error occur while listening on port
+    if (error) {
+        console.log('Something went wrong', error);
+    }
+    // Else sent message of listening
+    else {
+        console.log('Server is listening on port' + port);
+    }
+})
