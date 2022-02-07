@@ -4,7 +4,7 @@
   "description": "",
   "main": "tailwind.config.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./index.css -o ./tailwind.css -w"
+    "start": "npx tailwindcss -i ./index.css -o ./tailwind.css -w"
   },
   "keywords": [],
   "author": "",
