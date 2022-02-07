@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "tailwind.config.js",
   "scripts": {
-    "build": "npx tailwindcss -i index.css -o final.css --minify"
+    "build": "npx tailwindcss -i index.css -o final.css --minify",
+    "start": "node start"
   },
   "author": "",
   "license": "ISC",
