@@ -4,7 +4,8 @@
   "description": "",
   "main": "tailwind.config.js",
   "scripts": {
-    "start": "npx tailwindcss -i ./index.css -o ./tailwind.css -w"
+    "build": "npx tailwindcss -i ./index.css -o ./tailwind.css -w",
+    "start": "npm run build"
   },
   "keywords": [
     "heroku"
