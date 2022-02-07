@@ -1,1 +1,1 @@
-web: node app:app --log-file=-
+web: npm run start:prod
