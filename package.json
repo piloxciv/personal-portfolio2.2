@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "tailwind.config.js",
   "scripts": {
-    "build": "npx tailwindcss -i index.css -o final.css --minify"
+    "start": "npx tailwindcss -i index.css -o final.css --minify"
+
   },
   "author": "",
   "license": "ISC",
@@ -11,7 +12,7 @@
     "tailwindcss": "^3.0.19"
   },
   "dependencies": {
-    "heroku": "^7.59.2"
+    "heroku": "^7.33.3"
   },
   "repository": {
     "type": "git",
